@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/osandria/Documents/Visual Studio 2008/Projects/github/c#-learning/csharp-learning/oscar-xna/HelloWorldXNA/HelloWorldXNAContent/graphics/balalaika.png</File>
+    <File>C:/Users/osandria/Documents/Visual Studio 2008/Projects/github/c#-learning/csharp-learning/oscar-xna/HelloWorldXNA/HelloWorldXNAContent/graphics/brown-teddy-bear.png</File>
+    <File>C:/Users/osandria/Documents/Visual Studio 2008/Projects/github/c#-learning/csharp-learning/oscar-xna/HelloWorldXNA/HelloWorldXNAContent/graphics/garageband.png</File>
+  </SourceFiles>
+</SourceFileCollection>

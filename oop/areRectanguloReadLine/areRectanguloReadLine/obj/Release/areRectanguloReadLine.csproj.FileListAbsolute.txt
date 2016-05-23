@@ -1,0 +1,5 @@
+C:\Users\osandria\AppData\Local\Temporary Projects\areRectanguloReadLine\bin\Release\areRectanguloReadLine.exe
+C:\Users\osandria\AppData\Local\Temporary Projects\areRectanguloReadLine\bin\Release\areRectanguloReadLine.pdb
+C:\Users\osandria\AppData\Local\Temporary Projects\areRectanguloReadLine\obj\Release\ResolveAssemblyReference.cache
+C:\Users\osandria\AppData\Local\Temporary Projects\areRectanguloReadLine\obj\Release\areRectanguloReadLine.exe
+C:\Users\osandria\AppData\Local\Temporary Projects\areRectanguloReadLine\obj\Release\areRectanguloReadLine.pdb

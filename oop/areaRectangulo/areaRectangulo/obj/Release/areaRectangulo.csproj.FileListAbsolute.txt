@@ -1,0 +1,5 @@
+C:\Users\osandria\AppData\Local\Temporary Projects\areaRectangulo\bin\Release\areaRectangulo.exe
+C:\Users\osandria\AppData\Local\Temporary Projects\areaRectangulo\bin\Release\areaRectangulo.pdb
+C:\Users\osandria\AppData\Local\Temporary Projects\areaRectangulo\obj\Release\ResolveAssemblyReference.cache
+C:\Users\osandria\AppData\Local\Temporary Projects\areaRectangulo\obj\Release\areaRectangulo.exe
+C:\Users\osandria\AppData\Local\Temporary Projects\areaRectangulo\obj\Release\areaRectangulo.pdb
