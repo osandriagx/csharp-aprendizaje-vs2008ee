@@ -3,8 +3,11 @@
  * proyecto.....: HelloWorldXNA
  * herramienta..: VS C# 2008 Espress Edition
  * fecha........: 22-05-2016
- * Referencia...: x CDOK x BaDz [usuario YouTube.com]. "XNA 4.0 Part 1 (How to add texture's/sprite's and add text)".
+ * Referencia...: 
+ * 1. x CDOK x BaDz [usuario YouTube.com]. "XNA 4.0 Part 1 (How to add texture's/sprite's and add text)".
  *   https://youtu.be/LvsnH-_VKco (consultada el 22-05-2016).
+ * 2.  x CDOK x BaDz [usuario YouTube.com]. "XNA 4.0 Part 2 (How to add update movement and keyboard alignment)".
+ *   https://youtu.be/4HwgOTtpGBU (consultada el 22-05-2016).
  * 
  */
 
@@ -118,8 +121,44 @@ namespace HelloWorldXNA
             //*********************************************************************
             //********************** Inicio: código agregado **********************
             //********************** 4a Modificación         **********************
-            posicionMiOso += new Vector2(1, 1);
-            posicionMiTexto += new Vector2(1, 0);
+            //posicionMiOso += new Vector2(1, 1);
+            //posicionMiTexto += new Vector2(1, 0);
+
+            KeyboardState keyState = Keyboard.GetState();
+            if (keyState.IsKeyDown(Keys.Up))
+            {
+                posicionMiOso += new Vector2(0, -1);
+            }
+            if (keyState.IsKeyDown(Keys.Down))
+            {
+                posicionMiOso += new Vector2(0, 1);
+            }
+            if (keyState.IsKeyDown(Keys.Left))
+            {
+                posicionMiOso += new Vector2(-1, 0);
+            }
+            if (keyState.IsKeyDown(Keys.Right))
+            {
+                posicionMiOso += new Vector2(1, 0);
+            }
+
+            if (keyState.IsKeyDown(Keys.S))
+            {
+                posicionGuitarraGarageband += new Vector2(0, -1);
+            }
+            if (keyState.IsKeyDown(Keys.D))
+            {
+                posicionGuitarraGarageband += new Vector2(0, 1);
+            }
+            if (keyState.IsKeyDown(Keys.A))
+            {
+                posicionGuitarraGarageband += new Vector2(-1, 0);
+            }
+            if (keyState.IsKeyDown(Keys.F))
+            {
+                posicionGuitarraGarageband += new Vector2(1, 0);
+            }
+
             //**********************   Fin: código agregado  **********************
             //*********************************************************************
 

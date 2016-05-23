@@ -28,3 +28,12 @@ C:\Users\osandria\Documents\Visual Studio 2008\Projects\github\csharp-aprendizaj
 C:\Users\osandria\Documents\Visual Studio 2008\Projects\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\osandria\Documents\Visual Studio 2008\Projects\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\HelloWorldXNA.exe
 C:\Users\osandria\Documents\Visual Studio 2008\Projects\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\HelloWorldXNA.pdb
+C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\graphics\guitarra_garageband.xnb
+C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\graphics\osito_cafe.xnb
+C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\graphics\SpriteFont1.xnb
+C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\HelloWorldXNA.exe
+C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\HelloWorldXNA.pdb
+C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\HelloWorldXNA.exe
+C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\HelloWorldXNA.pdb
