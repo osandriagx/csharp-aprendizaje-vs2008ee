@@ -8,7 +8,9 @@
  *   https://youtu.be/LvsnH-_VKco (consultada el 22-05-2016).
  * 2.  x CDOK x BaDz [usuario YouTube.com]. "XNA 4.0 Part 2 (How to add update movement and keyboard alignment)".
  *   https://youtu.be/4HwgOTtpGBU (consultada el 22-05-2016).
- * 
+ * 3. Lane, Trevor [usuario YouTube.com]. "XNA Lesson 5 - Controller Input".
+ *   https://youtu.be/tNZu6d-y-4s (consultada el 24-05-2016).
+ * 4. 
  */
 
 using System;
@@ -43,6 +45,10 @@ namespace HelloWorldXNA
         Vector2 posicionMiOso, posicionGuitarraGarageband, posicionMiTexto;
         //**********************   Fin: código agregado  **********************
         //*********************************************************************
+        GamePadState gamePad1;
+        MouseState mouseState;
+        int FactorX = 1;
+        int FactorY = 1;
 
         public Game1()
         {
@@ -63,6 +69,7 @@ namespace HelloWorldXNA
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            Jugador jugador1;
 
             base.Initialize();
         }
@@ -114,7 +121,8 @@ namespace HelloWorldXNA
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            gamePad1 = GamePad.GetState(PlayerIndex.One);
+            if (gamePad1.Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
             // TODO: Add your update logic here
@@ -125,6 +133,8 @@ namespace HelloWorldXNA
             //posicionMiTexto += new Vector2(1, 0);
 
             KeyboardState keyState = Keyboard.GetState();
+            mouseState = Mouse.GetState();
+
             if (keyState.IsKeyDown(Keys.Up))
             {
                 posicionMiOso += new Vector2(0, -1);
@@ -159,6 +169,74 @@ namespace HelloWorldXNA
                 posicionGuitarraGarageband += new Vector2(1, 0);
             }
 
+            // Referncia: https://youtu.be/tNZu6d-y-4s
+            // Botones del GamePad
+            if (gamePad1.Buttons.Back == ButtonState.Pressed)
+            {
+                this.Exit();
+            }
+            // DPad
+            if (gamePad1.DPad.Left == ButtonState.Pressed)
+            {
+                posicionMiOso += new Vector2(-1*FactorX, 0);
+            }
+            if (gamePad1.DPad.Right == ButtonState.Pressed)
+            {
+                posicionMiOso += new Vector2(1*FactorX, 0);
+            }
+            if (gamePad1.DPad.Up == ButtonState.Pressed)
+            {
+                posicionMiOso += new Vector2(0, -1*FactorY);
+            }
+            if (gamePad1.DPad.Down == ButtonState.Pressed)
+            {
+                posicionMiOso += new Vector2(0, 1*FactorY);
+            }
+
+            // Triggers
+            if (gamePad1.Triggers.Left > 0.5f)
+            {
+                posicionMiOso += new Vector2(-10, 0);
+            }
+            if (gamePad1.Triggers.Right > 0.5f)
+            {
+                posicionMiOso += new Vector2(10, 0);
+            }
+
+            // Action Bottons
+            if (gamePad1.Buttons.X == ButtonState.Pressed)
+            {
+                if (FactorX < 20)
+                  ++FactorX;
+            }
+            if (gamePad1.Buttons.Y == ButtonState.Pressed)
+            {
+                if (FactorY < 20)
+                  ++FactorY;
+            }
+            if (gamePad1.Buttons.A == ButtonState.Pressed)
+            {
+                if (FactorX > 1)
+                    --FactorX;
+            }
+            if (gamePad1.Buttons.B == ButtonState.Pressed)
+            {
+                if (FactorY > 1)
+                    --FactorY;
+            } 
+           
+
+            //if (gamePad1.ThumbSticks
+            if (mouseState.LeftButton == ButtonState.Pressed)
+            {
+                //gamePad1.ThumbSticks.Left.X
+            }
+            if (mouseState.RightButton == ButtonState.Pressed)
+            {
+
+            }
+
+
             //**********************   Fin: código agregado  **********************
             //*********************************************************************
 
@@ -187,5 +265,24 @@ namespace HelloWorldXNA
 
             base.Draw(gameTime);
         }
+    }
+
+    public class Jugador
+    {
+        string nombre;
+        int posicionX;
+        int posicionY;
+        int velocidadMax;
+        int velocidadActual;
+
+        public Jugador(string nombre, int x, int y, int velocidadMax, int velocidadActual)
+        {
+            this.nombre = nombre;
+            posicionX = x;
+            posicionY = y;
+            this.velocidadMax = velocidadMax;
+            this.velocidadActual = velocidadActual;
+        }
+
     }
 }

@@ -37,3 +37,7 @@ C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWo
 C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\HelloWorldXNA.exe
 C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\HelloWorldXNA.pdb
+C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\HelloWorldXNA.exe.manifest
+C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\HelloWorldXNA.application
+C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\HelloWorldXNA.exe.manifest
+C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\obj\x86\Debug\HelloWorldXNA.application

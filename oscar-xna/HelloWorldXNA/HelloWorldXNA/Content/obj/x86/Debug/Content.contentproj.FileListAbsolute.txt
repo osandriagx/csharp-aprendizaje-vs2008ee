@@ -2,4 +2,4 @@ C:\Users\osandria\Documents\Visual Studio 2008\Projects\XNA\HelloWorldXNA\HelloW
 C:\Users\osandria\Documents\Visual Studio 2008\Projects\github\c#-learning\oscar-xna\HelloWorldXNA\HelloWorldXNA\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\osandria\Documents\Visual Studio 2008\Projects\github\c#-learning\csharp-learning\oscar-xna\HelloWorldXNA\HelloWorldXNA\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\osandria\Documents\Visual Studio 2008\Projects\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\Content\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\Content\obj\x86\Debug\ResolveAssemblyReference.cache

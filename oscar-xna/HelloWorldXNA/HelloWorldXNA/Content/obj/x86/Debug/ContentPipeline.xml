@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\graphics\guitarra_garageband.xnb</Output>
-      <Time>2016-05-22T13:14:36.4855824-05:00</Time>
+      <Output>C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\graphics\guitarra_garageband.xnb</Output>
+      <Time>2016-05-23T15:22:13.9965007-05:00</Time>
     </Item>
     <Item>
       <Source>graphics\osito_cafe.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\graphics\osito_cafe.xnb</Output>
-      <Time>2016-05-22T16:33:26.3953925-05:00</Time>
+      <Output>C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\graphics\osito_cafe.xnb</Output>
+      <Time>2016-05-23T15:22:13.9975007-05:00</Time>
     </Item>
     <Item>
       <Source>graphics\SpriteFont1.spritefont</Source>
@@ -25,18 +25,18 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\graphics\SpriteFont1.xnb</Output>
-      <Time>2016-05-22T16:37:00.5066389-05:00</Time>
+      <Output>C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\graphics\SpriteFont1.xnb</Output>
+      <Time>2016-05-23T15:22:13.9955006-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\osandria\Documents\GitHub\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\osandria\Documents\github\csharp-aprendizaje-vs2008ee\oscar-xna\HelloWorldXNA\HelloWorldXNA\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -65,7 +65,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2016-05-15T01:54:56.8704837-05:00</Value>
+        <Value>2016-05-24T14:24:26.4399651-05:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
